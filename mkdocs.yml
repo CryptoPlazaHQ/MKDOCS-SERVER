@@ -1,6 +1,6 @@
 site_name: Infra Descentralizada – Red de MiniPCs
 site_url: https://tusitio.com
-repo_url: https://github.com/tuusuario/infra-descentralizada
+repo_url: https://github.com/CryptoPlazaHQ/MKDOCS-SERVER
 theme:
   name: material
   language: es
