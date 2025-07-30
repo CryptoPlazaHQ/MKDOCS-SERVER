@@ -4,7 +4,7 @@ repo_url: https://github.com/CryptoPlazaHQ/MKDOCS-SERVER
 theme:
   name: material
   language: es
-  logo: assets/logo.svg
+  logo: https://raw.githubusercontent.com/CryptoPlazaHQ/Stock/main/cryptoplaza_logo_white.png
   favicon: assets/favicon.ico
   palette:
     scheme: slate
