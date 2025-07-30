@@ -1,0 +1,60 @@
+site_name: Infra Descentralizada – Red de MiniPCs
+site_url: https://tusitio.com
+repo_url: https://github.com/tuusuario/infra-descentralizada
+theme:
+  name: material
+  language: es
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - '🏠 Inicio': index.md
+
+  - '🧪 Fase 0 – PoC Mínima':
+      - 'Setup Inicial': fase0_poc/setup-inicial.md
+      - 'Script de Acceso (PowerShell)': fase0_poc/powershell/enable-ssh.md
+      - 'Checklist de Validación': fase0_poc/validaciones.md
+
+  - '🔐 Fase 1 – Acceso Remoto Seguro':
+      - 'Acceso con Claves SSH': fase1_acceso/ssh-directo.md
+      - 'Asignación de IPs (SOP)': fase1_acceso/asignacion-ips.md
+      - 'Firewall por Capas': fase1_acceso/firewall-por-capas.md
+      - 'Configuración del Firewall de Windows': fase1_acceso/firewall-windows.md
+      - 'Opciones de Conectividad (VPN/Puertos)': fase1_acceso/overlay-vpn.md
+
+  - '🌐 Fase 2 – Inventario e IPAM (NetBox)':
+      - 'Instalación de NetBox': fase2_ipam_netbox/instalacion.md
+      - 'Modelado de la Infraestructura': fase2_ipam_netbox/modelado.md
+      - 'Scripts de Automatización (API)': fase2_ipam_netbox/scripts.md
+
+  - '⚙️ Fase 3 – Automatización (Ansible)':
+      - 'Introducción a Ansible': fase3_automatizacion/intro.md
+      - 'Inventario y Primer Playbook': fase3_automatizacion/playbooks.md
+      - 'Inventario Dinámico desde NetBox': fase3_automatizacion/inventario_dinamico.md
+      - 'Playbooks para Tareas Comunes': fase3_automatizacion/tareas_comunes.md
+
+  - '📊 Fase 4 – Monitoreo y Observabilidad':
+      - 'Instalación de Prometheus y Grafana': fase4_monitoring/instalacion.md
+      - 'Despliegue de Exporters': fase4_monitoring/exporters.md
+      - 'Creación de Dashboards': fase4_monitoring/dashboards.md
+
+  - '🔒 Fase 5 – Seguridad y Backups':
+      - 'Hardening y Gestión de Secretos': fase5_seguridad_backups/seguridad.md
+      - 'Estrategia de Backups': fase5_seguridad_backups/backups.md
+      - 'Hardening Automatizado': fase5_seguridad_backups/hardening.md
+
+  - '🧬 Fase 6 – Escalabilidad Comercial':
+      - 'Plantillas de Cliente': fase6_escalabilidad/plantilla-cliente.md
+      - 'Procesos de Replicación (SOPs)': fase6_escalabilidad/replicacion.md
+      - 'Roadmap Estratégico': fase6_escalabilidad/roadmap.md
+
+  - '📚 Extras':
+      - 'Glosario Técnico': extras/glosario.md
+      - 'Checklists (SOPs)': extras/checklists.md
